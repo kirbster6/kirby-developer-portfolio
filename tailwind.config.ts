@@ -18,3 +18,15 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
+// Simpler Lime Green: #7dce94
+// Scuffed Dark Grey: #3d3d3f
+// Vanilla Grey: #f6f5f3
+// White-ish: #f9f8fd
+
+// Fresh: #4ABDAC
+// Vermillion: #FC4A1A
+// Sunshine: #F7B733
+// Clean: #DFDCE3
+
+// text-black bg-white dark:text-white dark:bg-[#111010]
