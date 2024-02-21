@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Project from "@/components/project";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
       <br />
       <div>Top 3 Projects</div>
+        <Project />
       <br />
       <div>Experience</div>
       <br />
