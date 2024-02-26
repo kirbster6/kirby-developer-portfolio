@@ -1,6 +1,9 @@
 import Image from "next/image";
 import SkillBubble from "./skillbubble";
 
+interface SkillBubbleProps {
+    tool: string;
+  }
 // border-4 border-red-500
 export default function Project() {
     return (
@@ -11,7 +14,7 @@ export default function Project() {
                 <p>full-stack ecommerce website to view and purchase movies.</p>
                 <div className='flex flex-row flex-wrap'>
                     <SkillBubble tool='Java' />
-                    <SkillBubble tool='Javascript' />
+                    <SkillBubble tool='   ' />
                     <SkillBubble tool='HTML' />
                     <SkillBubble tool='CSS' />
                     <SkillBubble tool='AWS' />
