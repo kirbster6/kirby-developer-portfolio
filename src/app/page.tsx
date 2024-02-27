@@ -16,7 +16,7 @@ export default function Home() {
         </p>
       </div>
       <br />
-      <div>Images</div>
+      <h2>Images</h2>
       <br />
       <div>
         <p>
@@ -27,8 +27,11 @@ export default function Home() {
         </p>
       </div>
       <br />
-      <div>Top 3 Projects</div>
-        <Project />
+      <div className="flex flex-col gap-4">
+        <h2 className="font-bold">Projects</h2>
+        <Project skills={['Tomcat', 'Java', 'MySQL', 'JDBC', 'HTTPS', 'RESTful APIs', 'Javascript', 'Apache', 'Git', 'AWS', 'jMeter', 'Android', 'reCAPTCHA']} title={'Fabflix'} description={'An ecommerce website to browse movies, stars, and genres and purchase films.'} image={'/Fabflix_temp.png'}/>
+        <Project skills={['React.js', 'SCSS', 'Liveblocks', 'Node.js', 'Github']} title={'TypeJam'} description={'A typing speed competition with live collaboration.'} image={'/typejam_screenshot.png'}/>
+      </div>
       <br />
       <div>Experience</div>
       <br />
